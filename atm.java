@@ -1,14 +1,11 @@
-  
 import java.util.Scanner;  
-  
-//create ATMExample class to implement the ATM functionality  
 public class atm 
 {  
   public static boolean validateInputAmount(Integer amount)
   {
     return amount>0;
   }
-    //main method starts   
+     
     public static void main(String args[] )  
     {  
         //declare and initialize balance, withdraw, and deposit  
